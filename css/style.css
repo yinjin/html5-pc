@@ -9,40 +9,43 @@ ul{
 a {
 	text-decoration: none;
 }
-#nav{
+.none {
+	display: none;
+}
+#header{
 	width: 100%;
 	height: 70px;
 	background-color: #333;
 }
-#nav .center {
+#header .center {
 	width: 1263px;
 	height: 70px;
 	margin: 0 auto;
 }
-#nav .logo {
+#header .logo {
 	width: 240px;
 	height: 70px;
 	float: left;
 	background-image: url(../img/logo.png);
 	text-indent: -9999px;
 }
-#nav .link {
+#header .link {
 	float: right;
 	width: 650px;
 	height: 70px;
 	text-align: center;
 	line-height: 70px;
 }
-#nav .link li {
+#header .link li {
 	width: 120px;
 	
 	float: left;
 }
-#nav .link a{
+#header .link a{
 	display: block;
 	color: #eee;
 }
-#nav .link a:hover, 
-#nav .active a {
+#header .link a:hover, 
+#header .active a {
 	background-color: #000;
 }
