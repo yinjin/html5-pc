@@ -14,34 +14,35 @@ a {
 	height: 70px;
 	background-color: #333;
 }
-#nav > section {
+#nav .center {
 	width: 1263px;
 	height: 70px;
 	margin: 0 auto;
 }
-#nav > section > h1{
+#nav .logo {
 	width: 240px;
 	height: 70px;
 	float: left;
 	background-image: url(../img/logo.png);
 	text-indent: -9999px;
 }
-#nav > section > ul {
+#nav .link {
 	float: right;
 	width: 650px;
 	height: 70px;
 	text-align: center;
 	line-height: 70px;
 }
-#nav > section > ul > li {
+#nav .link li {
 	width: 120px;
 	
 	float: left;
 }
-#nav > section > ul > li > a{
+#nav .link a{
 	display: block;
 	color: #eee;
 }
-#nav > section > ul > li > a:hover, #nav > section > ul > li.active a {
+#nav .link a:hover, 
+#nav .active a {
 	background-color: #000;
 }
