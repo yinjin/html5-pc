@@ -50,16 +50,19 @@
 #container .tag{
 	padding: 10px 0;
 }
-#container .tag a {
+#container .tag li {
 	display: inline-block;
 	width: 100px;
 	height: 35px;
 	line-height: 35px;
 	margin: 2px 0;
 	background-color: #EEEEEE;
-	color: #999999;
 	text-align: left;
 	text-indent: 8px;
+}
+#container .tag a {
+	display: block;
+	color: #999999;
 }
 #container .tag a:hover {
 	background-color: #458b00;
