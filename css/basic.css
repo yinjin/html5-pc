@@ -59,6 +59,9 @@ a {
 #footer{
 	height: 360px;
 	background-color: #222;
+	clear: both;
+	position: relative;
+	top: 20px;
 }
 #footer .top {
 	width: 1263px;

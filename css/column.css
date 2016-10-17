@@ -25,18 +25,81 @@
 }
 #container{
 	width: 1263px;
-	height: 1200px;
 	margin: 30px auto;
 }
 #container .sidebar{
-	width: 320px;
-	height: 1200px;
+	width: 340px;
+	float:right;
+}
+#container .sidebox{
+	border: 1px solid #EEEEEE;
+	margin: 0 0 10px 0;
+	text-align: center;
+}
+#container .sidebox h2{
+	font-size: 20px;
+	font-weight: normal;
+	letter-spacing: 1px;
+	text-indent: 10px;
+	height:40px;
+	line-height: 40px;
+	background-color: #fafafa;
+	color: #666666;
+	text-align: left;
+}
+#container .tag{
+	padding: 10px 0;
+}
+#container .tag a {
+	display: inline-block;
+	width: 100px;
+	height: 35px;
+	line-height: 35px;
+	margin: 2px 0;
 	background-color: #EEEEEE;
-	float:left;
+	color: #999999;
+	text-align: left;
+	text-indent: 8px;
+}
+#container .tag a:hover {
+	background-color: #458b00;
+	color: #FFFFFF;
+}
+#container .hot .figure{
+	padding: 10px 0;
+}
+#container .hot figure{
+	display: inline-block;
+	padding: 4px;
+	color: #666;
+}
+#container .box{
+	padding: 10px 0;
+}
+#container .box a {
+	display: inline-block;
+	width: 150px;
+	height: 40px;
+	line-height: 40px;
+	margin: 2px 0;
+	color: #999999;
+	text-align: left;
+	text-indent: 35px;
+}
+
+#container .box .trea1{
+	background: #eee url(../img/trea1.png) no-repeat 10px center;
+}
+#container .box .trea2{
+	background: #eee url(../img/trea2.png) no-repeat 10px center;
+}
+#container .box .trea3{
+	background: #eee url(../img/trea3.png) no-repeat 10px center;
+}
+#container .box .trea4{
+	background: #eee url(../img/trea4.png) no-repeat 10px center;
 }
 #container .list{
-	width: 920px;
-	height: 1200px;
-	float: right;
-	background-color: #ccc;
+	width: 900px;
+	float: left;
 }
