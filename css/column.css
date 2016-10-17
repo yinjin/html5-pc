@@ -1,0 +1,42 @@
+#headline {
+	width: 100%;
+	min-width: 1263px !important;
+	height: 300px;
+	/*背景图渐变，使文字显得清晰*/
+	background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)),url(../img/headline.jpg) no-repeat center;
+}
+.center {
+	width: 1263px;
+	height: 300px;
+	margin: 0 auto;
+}
+#headline hgroup{
+	padding: 100px 0 0 50px;
+}
+#headline h2 {
+	color: #EEEEEE;
+	font-size: 36px;
+	letter-spacing: 1px;
+}
+#headline h3 {
+	color: #EEEEEE;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+#container{
+	width: 1263px;
+	height: 1200px;
+	margin: 30px auto;
+}
+#container .sidebar{
+	width: 320px;
+	height: 1200px;
+	background-color: #EEEEEE;
+	float:left;
+}
+#container .list{
+	width: 920px;
+	height: 1200px;
+	float: right;
+	background-color: #ccc;
+}
