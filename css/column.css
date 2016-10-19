@@ -275,7 +275,7 @@
 #container .tour time {
 	color: #458B00;
 }
-#container .information .more{
+#container .information .more, #container .scenery .more{
 	width: 200px;
 	height: 50px;
 	line-height: 50px;
@@ -287,11 +287,11 @@
 	cursor: pointer;
 	background-color: #fafafa;
 }
-#container .ticket{
+#container .ticket, #container .scenery, #container .about{
 	font-size: 20px;
 	color: #666666;
 }
-#container .ticket h2{
+#container .ticket h2, #container .scenery h2, #container .about h2{
 	height: 40px;
 	line-height:40px;
 	font-size: 30px;
@@ -403,4 +403,26 @@
 	font-size:20px;
 	text-align: center;
 	border-radius: 4px;
+}
+#container .scenery figure{
+	border: 1px solid #ddd;
+	display: inline-block;
+	width: 435px;
+	padding: 4px;
+	margin: 15px 0px 15px 5px;
+	border-radius:4px;
+	text-align: left;
+}
+#container .scenery figcaption{
+	text-align: center;
+}
+#container .about p{
+	line-height: 2;
+	margin: 20px 0;
+	text-indent: 2em;
+}
+#container .about address{
+	line-height: 1.5;
+	margin: 20px 0;
+	font-style: normal;
 }
