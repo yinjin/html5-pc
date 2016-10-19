@@ -18,10 +18,10 @@
 						<li>
 							<a href="index.html">首页</a>
 						</li>
-						<li class="active">
+						<li>
 							<a href="imformation.html">旅游资讯</a>
 						</li>
-						<li>
+						<li class="active">
 							<a href="#">机票订购</a>
 						</li>
 						<li>
@@ -129,77 +129,118 @@
 				</div>
 			</aside>
 			
-			<div class="list information">
-				<div class="infor">
-					<ul class="left">
-						<li><a href="###">限时特价</a></li>
-						<li><a href="###">热门推荐</a></li>
+			<div class="list ticket">
+				
+				<form action="###">
+					<h2>机票预定</h2>
+					<div class="type">
+						<p>航程类型 <mark>单程</mark> 往返</p>
+					</div>
+					<div class="form left">
+						<p>
+							<label for="from_city">出发城市</label>
+							<input type="text" id="from_city" name="from_city" placeholder="城市名" />
+						</p>
+						<p>
+							<label for="to_city">返程城市</label>
+							<input type="text" id="to_city" name="to_city" placeholder="城市名" />
+						</p>
+					</div>
+					<div class="form right">
+						<p>
+							<label for="from_time">出发时间</label>
+							<input type="text" id="from_time" name="from_time" placeholder="日期 / 时间" />
+						</p>
+						<p>
+							<label for="to_time">返程时间</label>
+							<input type="text" id="to_time" name="to_time" placeholder="日期 / 时间" />
+						</p>
+					</div>
+					<div class="form button">
+						<p>
+							<button type="submit" class="submit">订票</button>
+						</p>
+					</div>
+				</form>
+				<div class="new">
+					<h2>最新机票</h2>
+					<ul>
+						<li>热门城市</li>
+						<li>北流</li>
+						<li>桂林</li>
+						<li>玉林</li>
+						<li>南宁</li>
+						<li>柳州</li>
+						<li>北海</li>
+						<li>来宾</li>
 					</ul>
-					<ul class="right">
-						<li><a href="###" class="selected">推荐</a></li>
-						<li><a href="###">折扣</a></li>
-						<li><a href="###">价格</a></li>
-					</ul>
+					<table>
+						<thead>
+							<tr>
+								<th>路线</th>
+								<th>日期</th>
+								<th>价格</th>
+								<th>税费</th>
+								<th>餐食</th>
+								<th>航班</th>
+								<th>预定</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>北京-成都</td>
+								<td>10-15</td>
+								<td class="price">￥745</td>
+								<td>￥50</td>
+								<td>有</td>
+								<td>春秋航空</td>
+								<td><a href="###" class="reserve">预定</a></td>
+							</tr>
+							<tr>
+								<td>北京-成都</td>
+								<td>10-15</td>
+								<td class="price">￥745</td>
+								<td>￥50</td>
+								<td>有</td>
+								<td>春秋航空</td>
+								<td><a href="###" class="reserve">预定</a></td>
+							</tr>
+							<tr>
+								<td>北京-成都</td>
+								<td>10-15</td>
+								<td class="price">￥745</td>
+								<td>￥50</td>
+								<td>有</td>
+								<td>春秋航空</td>
+								<td><a href="###" class="reserve">预定</a></td>
+							</tr>
+							<tr>
+								<td>北京-成都</td>
+								<td>10-15</td>
+								<td class="price">￥745</td>
+								<td>￥50</td>
+								<td>有</td>
+								<td>春秋航空</td>
+								<td><a href="###" class="reserve">预定</a></td>
+							</tr>
+							<tr>
+								<td>北京-成都</td>
+								<td>10-15</td>
+								<td class="price">￥745</td>
+								<td>￥50</td>
+								<td>有</td>
+								<td>春秋航空</td>
+								<td><a href="###" class="reserve">预定</a></td>
+							</tr>
+						</tbody>
+						<tfoot>
+							<tr>	
+								<td colspan="7"><a href="###" class="more">加载更多航班...</a></td>
+							</tr>
+						</tfoot>
+					</table>
 				</div>
 				
-				<figure class="tour">
-					<img src="img/tour2.jpg"/>
-					<figcaption>
-						<article>
-							<header>
-								<hgroup>
-									<h2>马尔代夫双鱼6日游</h2>
-									<h3>包团特惠，超丰富景点，升级1晚国五，无自费，赠送600元成人券...</h3>
-								</hgroup>
-							</header>
-							<ol>
-								<li><mark>交通:</mark> 春秋航空，杭州出发，无需转机</li>
-								<li><mark>团期:</mark> 11/01、11/03、11/08...</li>
-							</ol>
-							<div class="buy">
-								<div class="price">￥<strong>2864</strong> <s>￥3980</s></div>
-								<div class="reserve"><a href="###">立即抢购</a></div>
-							</div>
-							<div class="type">
-								国际长线
-							</div>
-							<div class="disc">
-								<span>4.7折</span>
-							</div>
-							<footer>本次旅游由桂城旅游俱乐部赞助，截止日期 <time>2016-10-10</time></footer>
-						</article>
-					</figcaption>
-				</figure>
-				<figure class="tour">
-					<img src="img/tour2.jpg"/>
-					<figcaption>
-						<article>
-							<header>
-								<hgroup>
-									<h2>马尔代夫双鱼6日游</h2>
-									<h3>包团特惠，超丰富景点，升级1晚国五，无自费，赠送600元成人券...</h3>
-								</hgroup>
-							</header>
-							<ol>
-								<li><mark>交通:</mark> 春秋航空，杭州出发，无需转机</li>
-								<li><mark>团期:</mark> 11/01、11/03、11/08...</li>
-							</ol>
-							<div class="buy">
-								<div class="price">￥<strong>2864</strong> <s>￥3980</s></div>
-								<div class="reserve"><a href="###">立即抢购</a></div>
-							</div>
-							<div class="type">
-								国际长线
-							</div>
-							<div class="disc">
-								<span>4.7折</span>
-							</div>
-							<footer>本次旅游由桂城旅游俱乐部赞助，截止日期 <time>2016-10-10</time></footer>
-						</article>
-					</figcaption>
-				</figure>
-				
-				<div class="more">加载更多...</div>
 			</div>
 			
 			
