@@ -3,7 +3,10 @@
 	margin: 0px;
 	padding: 0px;
 }
-ul{
+body {
+	font-family: "Microsoft YaHei","Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+ul,ol{
 	list-style: outside none none;
 }
 a {
